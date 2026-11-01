@@ -1,0 +1,9 @@
+salary = [25000, 30000, 40000, 35000]
+new_salary = []
+for s in salary:
+    new_salary.append(s * 1.10)
+print("Updated Salaries:", new_salary)
+
+Output
+Updated Salaries: [27500.0, 33000.0, 44000.0, 38500.0]
+
