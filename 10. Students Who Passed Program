@@ -1,0 +1,10 @@
+marks = [45, 67, 89, 32, 78, 55, 49]
+passed = []
+for m in marks:
+    if m >= 50:
+        passed.append(m)
+
+print("Passed Students Marks:", passed)
+Output
+Passed Students Marks: [67, 89, 78, 55]
+
