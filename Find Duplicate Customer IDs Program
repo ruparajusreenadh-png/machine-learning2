@@ -1,0 +1,10 @@
+customer_ids = [101, 102, 103, 102, 104, 105, 101]
+duplicates = []
+for i in customer_ids:
+    if customer_ids.count(i) > 1 and i not in duplicates:
+        duplicates.append(i)
+print("Duplicate IDs:", duplicates)
+
+Output
+Duplicate IDs: [101, 102]
+
