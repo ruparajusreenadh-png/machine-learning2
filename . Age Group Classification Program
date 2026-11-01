@@ -1,0 +1,15 @@
+ages = [12, 25, 45, 67, 15]
+for age in ages:
+    if age < 18:
+        print(age, "Child")
+    elif age < 60:
+        print(age, "Adult")
+    else:
+        print(age, "Senior Citizen")
+
+Output
+12 Child
+25 Adult
+45 Adult
+67 Senior Citizen
+15 Child
