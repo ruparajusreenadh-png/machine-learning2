@@ -1,0 +1,8 @@
+prices = [250, 450, 120, 600, 350]
+print("Highest Price:", max(prices))
+print("Lowest Price:", min(prices))
+
+Output
+Highest Price: 600
+Lowest Price: 120
+
