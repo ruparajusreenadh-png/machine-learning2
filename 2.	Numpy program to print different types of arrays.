@@ -1,0 +1,24 @@
+Code:
+import numpy as np
+x=np.arange(2,6).reshape(4)
+print(x)
+Output:
+[2, 3, 4, 5]
+#two-dimensional array
+Code:
+import numpy as np
+x=np.arange(2,10).reshape(2,4)
+print(x)
+Output:
+[[2 3 4 5]
+[6 7 8 9]]
+#three-dimensional array
+Code:
+import numpy as np
+x=np.arange(24).reshape(4,3,2)
+print(x)
+Output:
+
+	 
+ 
+ 
