@@ -1,0 +1,10 @@
+feedback = "good service good quality excellent service"
+words = feedback.split()
+for word in set(words):
+    print(word, ":", words.count(word))
+
+output:
+good : 2
+service : 2
+quality : 1
+excellent : 1
