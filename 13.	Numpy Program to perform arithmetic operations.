@@ -1,0 +1,69 @@
+import numpy as np
+ a=np.arange(9,dtype=np.float_).reshape(3,3)
+print("First Array:")
+print(a) b=np.array([10,20,30])
+print("Second Array:")
+print(b)
+print("Addition of Arrays:")
+print(np.add(a,b))
+print("Subtraction of Arrays:")
+print(np.subtract(a,b)) 
+print("Multiplication of Arrays:")
+print(np.multiply(a,b))
+print("Division of Arrays:")
+print(np.divide(a,b))
+ 
+Output:
+First Array:
+[[0. 1. 2.]
+[3. 4. 5.]
+[6. 7. 8.]]
+Second Array:
+[10 20 30]
+Addition of Arrays: [[10. 21. 32.]
+[13. 24. 35.]
+[16. 27. 38.]]
+Subtraction of Arrays: [[-10. -19. -28.]
+[ -7. -16. -25.]
+[ -4. -13. -22.]]
+Multiplication of Arrays:
+ 
+[[ 0. 20. 60. ]
+[ 30. 80. 150.]
+[ 60. 140. 240.]]
+Division of Arrays:
+[[0. 0.05 0.06666667]
+[0.3 0.2 0.16666667]
+[0.6 0.35 0.26666667]]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
