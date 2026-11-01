@@ -1,0 +1,10 @@
+expenses = [12000, 15000, 18000, 11000, 17000]
+highest = max(expenses)
+month = expenses.index(highest) + 1
+print("Highest Expense:", highest)
+print("Month:", month)
+Output
+Highest Expense: 18000
+Month: 3
+
+ 
