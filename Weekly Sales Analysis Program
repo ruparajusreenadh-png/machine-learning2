@@ -1,0 +1,7 @@
+sales = [2500, 3000, 2800, 3500, 4000, 3800, 4200]
+print("Total Sales:", sum(sales))
+print("Average Sales:", sum(sales)/len(sales))
+Output
+Total Sales: 23800
+Average Sales: 3400.0
+
