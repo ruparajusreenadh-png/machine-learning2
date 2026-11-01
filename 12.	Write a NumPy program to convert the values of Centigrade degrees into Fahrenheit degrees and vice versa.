@@ -1,0 +1,29 @@
+import numpy as np
+fvalues = [0, 12, 45.21, 34, 99.91, 32]
+F = np.array(fvalues)
+print("Values in Fahrenheit degrees:")
+print(F)
+print("Values in Centigrade degrees:")
+print(np.round((5*F/9 - 5*32/9),2))
+Output:
+Values in Fahrenheit degrees:
+[ 0. 12. 45.21 34. 99.91 32. ]
+Values in Centigrade degrees:
+[-17.78 -11.11 7.34 1.11 37.73 0. ]
+#Centigrade degree to Fahrenheit degree.
+
+Code:
+import numpy as np
+cvalues = [-17.78, -11.11, 7.34, 1.11, 37.73, 0]
+C = np.array(cvalues)
+print("Values in Centigrade degrees:")
+print(C)
+print("Values in Fahrenheit degrees:")
+print(np.round((9*C/5 + 32),2))
+Output:
+Values in Centigrade degrees:
+[-17.78 -11.11 7.34 1.11 37.73 0. ]
+Values in Fahrenheit degrees:
+[-0. 12. 45.21 34. 99.91 32. ]
+ 
+ 
