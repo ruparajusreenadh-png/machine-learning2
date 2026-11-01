@@ -1,0 +1,15 @@
+ids = [101, 102, 103, 104, 105, 106]
+even = []
+odd = []
+for i in ids:
+    if i % 2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+print("Even IDs:", even)
+print("Odd IDs:", odd)
+
+Output
+Even IDs: [102, 104, 106]
+Odd IDs: [101, 103, 105]
+
