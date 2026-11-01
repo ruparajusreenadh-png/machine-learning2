@@ -1,0 +1,7 @@
+total_classes = 90
+attended = 81
+percentage = (attended / total_classes) * 100
+print("Attendance Percentage:", percentage)
+
+Output
+Attendance Percentage: 90.0
