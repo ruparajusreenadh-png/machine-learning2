@@ -1,0 +1,14 @@
+values = [20, -5, 15, -10, 30, -2]
+positive = 0
+negative = 0
+for i in values:
+    if i > 0:
+        positive += 1
+    elif i < 0:
+        negative += 1
+print("Positive Values:", positive)
+print("Negative Values:", negative)
+
+Output
+Positive Values: 3
+Negative Values:3
